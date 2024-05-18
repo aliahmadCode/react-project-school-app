@@ -52,7 +52,7 @@ function Sidebar() {
       <div className="select-none overflow-auto h-full min-h-screen font-sans hidden lg:flex flex-col items-center w-full lg:min-w-[250px] lg:max-w-[250px] bg-white px-6">
         <div className="flex flex-col mt-10 cursor-pointer">
           <div className="flex px-4 gap-2 flex-row justify-start items-start">
-            <img className="w-11 h-12" src="src/assets/logo.jpg" alt="logo" />
+            <img className="w-11 h-12" src="src/assets/logo.svg" alt="logo" />
             <div className="flex flex-col text-[13px] font-[500] leading-[16px]">
               <p>Institute of</p>
               <p>Business Administration</p>
@@ -103,7 +103,7 @@ function Sidebar() {
               <div className="flex px-4 gap-2 flex-row justify-start items-start">
                 <img
                   className="w-11 h-12"
-                  src="src/assets/logo.jpg"
+                  src="src/assets/logo.svg"
                   alt="logo"
                 />
                 <div className="flex flex-col text-[13px] font-[500] leading-[16px]">
