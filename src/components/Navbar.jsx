@@ -22,7 +22,7 @@ function Navbar({ handleHide }) {
             <div className="flex px-4 gap-2 flex-row justify-start items-start">
               <img
                 className="w-11 h-12"
-                src="src/assets/logo.webp"
+                src="src/assets/logo.jpg"
                 alt="logo"
               />
               <div className="flex flex-col text-[13px] font-[500] leading-[16px]">
@@ -41,14 +41,14 @@ function Navbar({ handleHide }) {
           <BiMessageSquareDetail className="bg-white px-1 text-[32px] cursor-pointer hover:bg-[#f6e8ea] hover:text-[#b43548]" />
           <div className="flex items-center gap-2 cursor-pointer ">
             <h3>John Smith</h3>
-            <img src="src/assets/user.webp" alt="user" className="w-8 h-8" />
+            <img src="src/assets/user.jpg" alt="user" className="w-8 h-8" />
           </div>
           <IoIosArrowDown className="cursor-pointer " />
         </div>
         <div className="flex sm:hidden items-center relative">
           <div className="flex items-center gap-2 cursor-pointer">
             <h3>John Smith</h3>
-            <img src="src/assets/user.webp" alt="user" className="w-8 h-8" />
+            <img src="src/assets/user.jpg" alt="user" className="w-8 h-8" />
             {isHide ? (
               <IoIosArrowDown
                 onClick={() => showUser()}

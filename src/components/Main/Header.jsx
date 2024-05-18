@@ -18,7 +18,7 @@ function Header() {
           <BiMessageSquareDetail className="bg-white px-1 text-[32px] cursor-pointer hover:bg-[#f6e8ea] hover:text-[#b43548]" />
           <div className="flex items-center gap-2 cursor-pointer ">
             <h3>John Smith</h3>
-            <img src="src/assets/user.webp" alt="user" className="w-8 h-8" />
+            <img src="src/assets/user.jpg" alt="user" className="w-8 h-8" />
           </div>
           <IoIosArrowDown className="cursor-pointer " />
         </div>
