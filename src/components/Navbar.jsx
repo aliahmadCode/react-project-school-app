@@ -22,7 +22,7 @@ function Navbar({ handleHide }) {
             <div className="flex px-4 gap-2 flex-row justify-start items-start">
               <img
                 className="w-11 h-12"
-                src="/user.jpg"
+                src="/logo.jpg"
                 alt="logo"
               />
               <div className="flex flex-col text-[13px] font-[500] leading-[16px]">
